@@ -1,0 +1,20 @@
+nav{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 30px 10px 10px 10px;
+    &:hover{
+        border-bottom: 1px solid #000;
+    }
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.app{
+    background-color: cyan;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// style de la présentation
+
+.pres{
+    background-color: aliceblue;
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+}
+
+// style pour les projets
+
+.container{
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+}

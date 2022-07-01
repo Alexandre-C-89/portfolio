@@ -1,18 +1,15 @@
-const react from "react";
+import React from "react";
+import "..//style/components/_Header.scss";
 
-
-const Header = () => {
-    render (
-        <div className="header">
-            <h1>AC</h1>
-            <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Contact</li>
-            </ul>
-            </nav>
-        </div>
-    );
-};
+function Header() {
+  return (
+    <nav>
+      <ul className="list">
+        <li className="item">Accueil</li>
+        <li className="item">Contact</li>
+      </ul>
+    </nav>
+  );
+}
 
 export default Header;
