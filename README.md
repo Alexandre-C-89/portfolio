@@ -1,3 +1,24 @@
+# portfolio
+Voici mon portfolio avec toutes mes réalisations depuis mon parcours Développeur Web jusqu'a aujourd'hui.
+
+Les projets que vous visionnerez ici sont réalisé avec différents langages et framework tels que :
+
+- HTML
+- CSS
+- JavaScript
+- VueJs
+- React
+- Java
+- Kotlin
+- Flutter
+
+
+N'hésitez pas à me contacté pour de plus amples informations.
+
+
+Clémençot Alexandre
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
