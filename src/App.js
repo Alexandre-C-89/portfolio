@@ -1,11 +1,13 @@
 import React from "react";
 import "./style/app.scss"
 import Header from "./components/Header";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="app">
       <Header />
+      <Nav />
 
       {/* Présentation  */}
 
