@@ -1,13 +1,16 @@
 import React from "react";
 import "./style/app.scss"
 import Header from "./components/Header";
-import Nav from "./components/Nav";
+import Reservia from "./assets/reservia.jpg";
+import Ohmyfood from "./assets/ohmyfood.jpg";
+import Lachouetteagence from "./assets/lachouetteagence.jpg";
+// import Piiquante from "./assets/piiquante.jpg";
+import Groupomania from "./assets/groupomania.jpg";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Nav />
 
       {/* Présentation  */}
 
@@ -33,21 +36,76 @@ function App() {
         </p>
 
         <div className="card">
-          <h3>nom du projet</h3>
+          <h3>Reservia</h3>
+          <img src={Reservia} alt="projet reservia" />
           <div className="card_text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Quasi perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci consectetur
-               molestiae impedit. Cum aspernatur, maxime minus fugiat quos soluta distinctio quae!</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>Oh My Food !</h3>
+          <img src={Ohmyfood} alt="projet oh my food" />
+          <div className="card_text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <h3>La Chouette Agence</h3>
+          <img src={Lachouetteagence} alt="projet La Chouette Agence" />
+          <div className="card_text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <h3>Piiquante</h3>
+          {/* <img src={Piiquante} alt="projet Piiquante" /> */}
+          <div className="card_text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <h3>Groupomania</h3>
+          <img src={Groupomania} alt="projet Groupomania" />
+          <div className="card_text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
           </div>
         </div>
       </div>
 
       {/* Contact  */}
 
-      <div className="container">
+      <div className="contact">
         <h2>Contact</h2>
         <p>
-          Si vous souhaitez me contactez je mets à disposition une page contact ou vous pourrez me laissé un message pour de plus amples informations.
+          Si vous souhaitez me contactez je mets à disposition une page contact
+          ou vous pourrez me laissé un message pour de plus amples informations.
         </p>
       </div>
     </div>
