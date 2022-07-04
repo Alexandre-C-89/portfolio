@@ -4,10 +4,8 @@ import "..//style/components/_Header.scss";
 function Header() {
   return (
     <nav>
-      <ul className="list">
-        <li className="item">Accueil</li>
-        <li className="item">Contact</li>
-      </ul>
+      <button>Accueil</button>
+      <button>Contact</button>
     </nav>
   );
 }
