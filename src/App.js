@@ -6,6 +6,7 @@ import Ohmyfood from "./assets/ohmyfood.jpg";
 import Lachouetteagence from "./assets/lachouetteagence.jpg";
 // import Piiquante from "./assets/piiquante.jpg";
 import Groupomania from "./assets/groupomania.jpg";
+import NatureCollection from "./assets/naturecollection.jpg";
 
 function App() {
   return (
@@ -36,9 +37,9 @@ function App() {
         </p>
 
         <div className="card">
-          <h3>Reservia</h3>
           <img src={Reservia} alt="projet reservia" />
           <div className="card_text">
+            <h3>Reservia</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
               perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
@@ -49,33 +50,9 @@ function App() {
         </div>
 
         <div className="card">
-          <h3>Oh My Food !</h3>
-          <img src={Ohmyfood} alt="projet oh my food" />
+          <img src={Ohmyfood} alt="projet reservia" />
           <div className="card_text">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
-              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
-              quos soluta distinctio quae!
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <h3>La Chouette Agence</h3>
-          <img src={Lachouetteagence} alt="projet La Chouette Agence" />
-          <div className="card_text">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
-              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
-              quos soluta distinctio quae!
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <h3>Piiquante</h3>
-          {/* <img src={Piiquante} alt="projet Piiquante" /> */}
-          <div className="card_text">
+            <h3>Reservia</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
               perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
@@ -86,9 +63,37 @@ function App() {
         </div>
 
         <div className="card">
-          <h3>Groupomania</h3>
-          <img src={Groupomania} alt="projet Groupomania" />
+          <img src={Lachouetteagence} alt="projet reservia" />
           <div className="card_text">
+            <h3>Reservia</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Groupomania} alt="projet reservia" />
+          <div className="card_text">
+            <h3>Reservia</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
+              consectetur molestiae impedit. Cum aspernatur, maxime minus fugiat
+              quos soluta distinctio quae!
+            </p>
+          </div>
+        </div>
+
+        {/* Projets perso */}
+
+        <div className="card_mobile">
+          <img src={NatureCollection} alt="projet nature collection" />
+          <div className="card_mobile_text">
+            <h3>Nature Collection</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
               perferendis nesciunt cumque a, dolorum eius saepe nihil adipisci
